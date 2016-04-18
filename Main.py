@@ -36,14 +36,17 @@ def checkSubscribers():
 
 
 if __name__ == "__main__":
+    lcd.lcd_display_string("YouTube Counter", 1)
+    time.sleep(3)
     checkSubscribers()
     while True:
-        lcd.lcd_display_string("SubscriberCount", 1)
-        lcd.lcd_display_string("" + subscriberCount + "   ", 2)
+        lcd.lcd_display_string("Subscriber:    ", 1)
+        lcd.lcd_display_string("      " + subscriberCount + "   ", 2)
         time.sleep(3)
-        lcd.lcd_display_string("View Count", 1)
-        lcd.lcd_display_string("" + viewCount + "   ", 2)
+        lcd.lcd_display_string("View:          ", 1)
+        lcd.lcd_display_string("      " + viewCount + "   ", 2)
         time.sleep(3)
+
 
 
 
