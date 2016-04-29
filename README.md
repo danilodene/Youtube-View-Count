@@ -9,4 +9,4 @@ https://www.googleapis.com/youtube/v3/search?part=id&maxResults=1&q=[Put_your_ch
 
 
 
-More information: nslookup 
+More information: http://dene.com.br/projetos/youtube-counter-raspberry 
